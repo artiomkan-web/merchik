@@ -1,0 +1,102 @@
+img
+{
+    max-width: 100%;
+    height: auto;
+
+    vertical-align: middle;
+}
+
+.video
+{
+    position: relative;
+
+    overflow: hidden;
+
+    height: 0;
+    padding-bottom: 56.25%;
+}
+
+.video iframe,
+.video object,
+.video embed
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+}
+
+@font-face
+{
+    font-family: 'icons';
+    font-weight: 400;
+    font-style: normal;
+
+    font-display: swap;
+    src: url('../fonts/icons.woff') format('woff'), url('../fonts/icons.woff2') format('woff2');
+}
+
+*
+{
+    font-weight: 400;
+
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    border-spacing: unset;
+    border-collapse: separate;
+    list-style-type: none;
+
+    -webkit-transition: .2s;
+         -o-transition: .2s;
+            transition: .2s;
+    text-decoration: none;
+
+    border: 0;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+    -webkit-box-align: baseline;
+    -ms-flex-align: baseline;
+    align-items: baseline;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    scroll-behavior: smooth;
+}
+
+a,
+input,
+button,
+textarea
+{
+    display: inline-block;
+
+    outline: none;
+}
+
+button
+{
+    cursor: pointer;
+
+    background: none;
+}
+
+.slick-list
+{
+    overflow: hidden;
+}
+
+.slick-track
+{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+@supports (-webkit-appearance:none)
+{
+}
